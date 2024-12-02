@@ -1,0 +1,60 @@
+{
+    "name": "react-custom-captcha-v1",
+    "version": "1.0.0",
+    "homepage": "https://custom-table-sample.vercel.app/",
+    "description": "A customizable CAPTCHA component for React projects. Add a secure, flexible CAPTCHA to your React applications with ease.",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "build": "babel src --out-dir dist --copy-files",
+        "prepublishOnly": "npm run build",
+        "test": "echo \"No test specified\" && exit 1"
+    },
+    "peerDependencies": {
+        "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+        "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+    },
+    "dependencies": {
+        "@fortawesome/react-fontawesome": "^0.2.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.0.0",
+        "@babel/preset-env": "^7.0.0",
+        "@babel/preset-react": "^7.0.0"
+    },
+    "license": "MIT",
+    "keywords": [
+        "captcha",
+        "react",
+        "react captcha",
+        "customizable captcha",
+        "captcha component",
+        "react security component",
+        "anti-bot captcha",
+        "form security",
+        "captcha reload",
+        "captcha react component",
+        "react form validation",
+        "captcha for react",
+        "captcha generator",
+        "custom captcha",
+        "dynamic captcha",
+        "javascript captcha",
+        "secure forms",
+        "spam protection"
+    ],
+    "author": "Your Name",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Amit1104/react-custom-captcha-v1"
+    },
+    "bugs": {
+        "url": "https://github.com/Amit1104/react-custom-captcha-v1/issues"
+    }
+}
